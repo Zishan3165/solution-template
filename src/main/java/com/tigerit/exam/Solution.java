@@ -97,14 +97,15 @@ public class Solution implements Runnable
                                     String line3 = readLine();
                                     String line4 = readLine();
                                     Queries[z] = new Query(line1, line2, line3, line4, tableArray);   //creation of query
+                                    if(z!=totalQueries-1) {
+
+                                        String blankline = readLine();       //blank link between each query
+
+                                    }
 
 
                                 }
-//                                System.out.println("Test: "+k);
-//                                for(int z=0;z<totalQueries;z++)
-//                                {
-//                                    Queries[z].processQuery();
-//                                }
+
                             }
                             else
                             {
