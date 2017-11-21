@@ -124,6 +124,10 @@ public class Solution implements Runnable
                     myTestcases[k] = new TestCase(Queries, totalQueries);  ///insertion of data and query in each test case
 
                 }
+                if(k!=testCaseNumber-1)
+                {
+                    readLine();
+                }
             }
             if(error!=true)
             {
